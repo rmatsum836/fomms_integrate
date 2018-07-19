@@ -16,6 +16,9 @@ setup(
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     license='BSD-3-Clause',
+    install_requires=[
+        'numpy'
+        ],
 
     # Which Python importable modules should be included when your package is installed
     packages=['fomms_integrate', "fomms_integrate.tests"],
